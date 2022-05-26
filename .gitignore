@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+*.sqlite3
+*.ipynb
+
+*/migrations/
+*/__pycache__/
