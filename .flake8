@@ -1,0 +1,9 @@
+[flake8]
+ignore = 
+    W293,
+    F401
+exclude =
+    .git,
+    __pycache__,
+    */migrations/*
+max-complexity = 10
