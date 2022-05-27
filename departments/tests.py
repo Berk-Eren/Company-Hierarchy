@@ -72,12 +72,12 @@ class DepartmentTests(APITestCase):
             "company": -1
         }
         response = self.send_request('/departments/', department_data)
-        breakpoint()
+        
         self.assertEqual(response.status_code, 400)
 
         # Don't send data.
         response = self.send_request('/departments/')
-        breakpoint()
+        
         self.assertEqual(response.status_code, 400)
         
     def tearDown(self):
